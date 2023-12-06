@@ -9,7 +9,6 @@ fun main() {
         }
         val wins = IntArray(time.size) { 0 }
         for (i in time.indices) {
-            // Time 7
             val timeLimit = time[i]
             val record = distance[i]
             for (speed in 1..timeLimit) {
